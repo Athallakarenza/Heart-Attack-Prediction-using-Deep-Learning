@@ -44,9 +44,9 @@ Build a neural network model to predict heart disease risk using medical feature
    Converted categorical features (if any) into numerical representations.
 
 5. **Tuning Hyperparameters**  
-   - Conducted grid search to find optimal model configuration.  
-   - Best configuration: 3 hidden layers with 300 neurons each.  
-   - Resulted in high model performance without signs of overfitting.
+   - Used grid search and manual experimentation to optimize model parameters.  
+   - Best configuration: batch size of 50, and 20 epochs. 
+   - This setup resulted in a well-generalized model with strong predictive performance.
 
 6. **Splitting and Normalizing Data**  
    Divided dataset into training and test sets and applied feature scaling.
@@ -63,20 +63,18 @@ Build a neural network model to predict heart disease risk using medical feature
 10. **Model Evaluation**  
     Evaluated model performance using accuracy, precision, recall, F1-score, and confusion matrix.
 
-    The Artificial Neural Network achieved the following performance:
+    The Artificial Neural Network (Categorical Model) achieved the following performance:
 
-    - Accuracy: 92.7%  
+    - Accuracy: 87.8%  
     - Precision:  
-      - Positive class: 0.94  
-      - Negative class: 0.91  
+      - Class 0 (Negative): 0.91  
+      - Class 1 (Positive): 0.85  
     - Recall:  
-      - Positive class: 0.92  
-      - Negative class: 0.93  
+      - Class 0 (Negative): 0.82  
+      - Class 1 (Positive): 0.93  
     - F1-Score:  
-      - Positive class: 0.93  
-      - Negative class: 0.92  
+      - Class 0 (Negative): 0.87  
+      - Class 1 (Positive): 0.89  
 
 
-
-### Folder Structure
 
